@@ -1,0 +1,39 @@
+INFO:     Will watch for changes in these directories: ['/home/workspace']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [153] using StatReload
+INFO:     Started server process [155]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.20.0.1:54084 - "GET /analytics/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54084 - "GET /analytics/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:54092 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     172.20.0.1:59300 - "GET /analytics/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59300 - "GET /analytics/summary HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "OPTIONS /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52606 - "OPTIONS /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "GET /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "GET /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52606 - "OPTIONS /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "OPTIONS /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48530 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52606 - "OPTIONS /orders HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "GET /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52606 - "OPTIONS /orders HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "GET /orders HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "GET /orders HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48530 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48542 - "GET /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48530 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52592 - "OPTIONS /factfinds HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48542 - "OPTIONS /factfinds HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48530 - "GET /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52606 - "GET /factfinds HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48530 - "GET /customers HTTP/1.1" 200 OK
+INFO:     172.20.0.1:52606 - "GET /factfinds HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48562 - "OPTIONS /settings HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48562 - "GET /settings HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48554 - "OPTIONS /settings HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48554 - "GET /settings HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48554 - "GET /products HTTP/1.1" 200 OK
+INFO:     172.20.0.1:48554 - "GET /products HTTP/1.1" 200 OK
